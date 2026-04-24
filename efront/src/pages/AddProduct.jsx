@@ -11,7 +11,6 @@ const AddProduct = () => {
   const [category, setCategory] = useState("");
   const [images, setImages] = useState([]);
   const [imagePreviews, setImagePreviews] = useState([]);
-  // const [error, setError] = useState(null); // 👈 Removed error state
   const [loading, setLoading] = useState(false);
 
   const navigate = useNavigate();
